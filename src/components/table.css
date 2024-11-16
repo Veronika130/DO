@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@300&family=IBM+Plex+Mono:wght@500&display=swap");
+
+body {
+  background-color: #8d99ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+}
+
+.frame {
+  width: 800px;
+  height: 600px;
+  background-color: #edf2f4;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 14px 15px 44px 0 rgba(0, 0, 0, 0.1),
+    55px 59px 81px 0 rgba(0, 0, 0, 0.09),
+    123px 134px 109px 0 rgba(0, 0, 0, 0.05),
+    219px 238px 129px 0 rgba(0, 0, 0, 0.01),
+    342px 371px 141px 0 rgba(0, 0, 0, 0);
+}
+
+.header {
+  background-color: #2b2d42;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 25px 25px 0 0;
+  margin: 0;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  position: relative;
+  top: 50px;
+}
+
+.input-group label {
+  font-size: 24px;
+  font-family: "IBM Plex Mono", monospace;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100px;
+  height: 25px;
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  border-radius: 10px;
+  border: 1px solid #343a40;
+  padding: 5px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2); 
+}
+
+.button-container_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-bottom: 40px;
+  margin-top: 332px;
+}
+
+.btn-back,
+.btn-next {
+  background-color: #2b2d42;
+  color: white;
+  outline: none;
+  border: none;
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 23px;
+  font-family: "IBM Plex Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 2px 2px 7px rgba(13, 13, 13, 0.29),
+    9px 9px 13px rgba(13, 13, 13, 0.26),
+    20px 21px 17px rgba(13, 13, 13, 0.15),
+    35px 37px 20px rgba(13, 13, 13, 0.04),
+    55px 58px 22px rgba(13, 13, 13, 0.01);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #495057;
+}
+
+.btn-next:hover {
+  background-color: #495057;
+}
+
+.btn-back i {
+  margin-right: 10px;
+}
+
+.btn-next i {
+  margin-left: 10px;
+}
+
+.btn-back span,
+.btn-next span {
+  transform: translateY(-2px);
+}
+
